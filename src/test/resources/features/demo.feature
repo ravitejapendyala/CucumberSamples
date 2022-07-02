@@ -1,7 +1,7 @@
 Feature: Guess the word
   demo feature
 
-@Test
+@Smoke
   Scenario: Jetbrains Test
   Given I navigate to Jetbrains app
 

@@ -14,7 +14,7 @@ public class HomePage {
     }
 
 
-    @FindBy(how= How.XPATH,using="//div[@class='_39M2dM JB4AMj']/input")
+    @FindBy(how= How.XPATH,using="//div[@class='_2IX_2- VJZDxU']/input")
     public WebElement userName_txt;
     @FindBy(how=How.XPATH,using="//input[@type='password']")
     public WebElement password_txt;

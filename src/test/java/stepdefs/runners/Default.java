@@ -15,7 +15,7 @@ import utils.SeleniumDriver;
 
         features = {"src/test/resources/features/"},
         glue = "stepdefs",
-        tags = "@Test",
+        tags = "@Smoke",
         plugin = {"html:target/cucumber-reports/cucumber-pretty","json:target/json-cucumber-reports/default/cukejson.json","testng:target/testng-cucumber-reports/cuketestng.xml" }
 
 )
